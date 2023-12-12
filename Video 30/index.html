@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        /* Create a global varriable */
+        :root {
+            --color: rgb(245, 127, 229);
+            --seccolor: rgb(135, 2, 161);
+            --defpad: 23px;
+            --defop: 0.8;
+
+
+        }
+
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            background-color: var(--color);
+
+        }
+
+        ul {
+            display: flex;
+        }
+
+        ul li {
+            opacity: var(--defop);
+            list-style: none;
+            padding: var(--defpad);
+            border: 2px solid var(--seccolor);
+        }
+
+        ul li:first-child {
+            /* create a local varribales */
+            --color: rgb(236, 173, 56);
+            background-color: var(--color, blue);
+        }
+
+        ul li:nth-child(2){
+            --color: rgb(57, 156, 160);
+            background-color: var(--color, blue);
+        }
+
+        ul li:nth-child(3){
+            --color: rgb(199, 90, 90);
+            background-color: var(--color, blue);
+        }
+
+        .container {
+            background-color: var(--seccolor)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ex ducimus quis odit iste! A dignissimos
+        explicabo ipsam esse? Soluta a aut dolorum porro ipsam molestiae cum dolor architecto iure officia placeat
+        laborum corporis, eligendi consectetur accusamus error qui sed illum labore pariatur ad quas.
+
+    </div>
+</body>
+
+</html>
