@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Object Fit and Position</title>
+    <style>
+        .container{
+            height: 634px;
+            width: 688px;
+            border: 2px solid black;
+            /* background-color: aquamarine; */
+            background-position: center center;
+            background-clip: border-box;
+
+            background-image: url("https://lh5.googleusercontent.com/proxy/WM4Z3Lp8UyFA1TNL3vIEPLenShkwjVtwP_P4lMHgMZjjwwiTRj5vczFrkjbvwwEmXYXnF-rGwdZvviT6kdjgHnkaJjHmy0tBWXmkqO6vzI96i6V2ttJyv5wU1iyGuZNWD0fByB7nzCp2");
+            background-repeat: no-repeat;
+
+        }
+
+        img{
+            height: 634px;
+            width: 688px;
+            /* object-fit: cover; */
+            /* object-fit: fill; */
+            object-fit: contain;
+            object-position: 10px 20px;
+            /* object-position: top right; */
+            /* object-fit: contain; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""> -->
+
+    </div>
+</body>
+</html>
