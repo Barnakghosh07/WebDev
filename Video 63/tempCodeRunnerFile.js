@@ -1,0 +1,1 @@
+console.log("Here is the tutorial about array in the JavaScript")
