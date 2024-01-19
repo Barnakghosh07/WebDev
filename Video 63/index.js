@@ -18,16 +18,31 @@
 // console.log(arr.pop(0))
 
 // Unshift and push && shift and pop are brothers
-let arr = [1, 4, 9, 2, 6] 
-console.log(arr.push(100))
-console.log(arr)
-console.log(arr.push("Barnak"))
-console.log(arr)
+// let arr = [1, 4, 9, 2, 6] 
+// console.log(arr.push(100))
+// console.log(arr)
+// console.log(arr.push("Barnak"))
+// console.log(arr)
 
-delete arr[6]
-console.log(arr)
-console.log(arr[6])
+// delete arr[6]
+// console.log(arr)
+// console.log(arr[6])
 
+
+// let arr1 = [2,3,4]
+// let arr2 = [4,5,7]
+// let arr3 = [6,3,5]
+// arr1.concat(arr2, arr3)
+// Returns a new array, doesnot change existing arrays
+// console.log(arr1.concat(arr2, arr3))
+// console.log(arr1)
+
+// let arr = [1, 4, 9, 2, 6] 
+// let numbers = [1, 2, 3, 4, 5] 
+// numbers.splice(1, 2)    
+// numbers.splice(1, 3)  
+// numbers.splice(1, 3, 222, 333) 
+// (4) [1, 222, 333, 5]
 
 
 
