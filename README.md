@@ -1,4 +1,4 @@
-#Web Development Best Practices
+##Web Development Best Practices
 
 Welcome to the Web Development Best Practices repository! This repository is a collection of best practices, tips, and resources for web development, specifically focusing on HTML, CSS, and JavaScript. Whether you're a beginner looking to enhance your skills or an experienced developer aiming to stay updated, this guide has something for everyone.
 
